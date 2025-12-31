@@ -11,7 +11,7 @@ import {
 import {LoaderFive } from './components/ui/loader'
 
 // Lazy load all page components
-const Home = lazy(() => import('./pages/Home/Home'));
+const Home = lazy(() => import('./pages/home/Home'));
 const AboutPage = lazy(() => import("./pages/About/AboutUs"));
 const WhyUs = lazy(() => import("./pages/WhyUs/WhyUs"));
 const CompanyOverView = lazy(() => import("./pages/CompanyOverview/CompanyOverView"));
