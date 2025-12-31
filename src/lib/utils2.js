@@ -534,3 +534,9 @@ export const serviceDetailsCRM = {
   },
 };
 
+export const serviceDetails = {
+  ...serviceDetailsKPO,
+  ...serviceDetailsRPO,
+  ...serviceDetailsBPO,
+  ...serviceDetailsCRM,
+};
