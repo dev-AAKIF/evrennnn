@@ -234,7 +234,7 @@ export function WhatWeDoSection() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
         {/* LEFT FIXED PANEL */}
         <div className="lg:sticky lg:top-32 lg:self-start">
-          <div className="space-y-6 p-8 rounded-3xl bg-purple-100 border border-purple-100 min-h-[unset] md:min-h-[600px] flex flex-col justify-center shadow-[0_4px_20px_rgba(147,51,234,0.15)]">
+          <div className="space-y-6 p-8 rounded-3xl bg-purple-100 border border-purple-100 min-h-[unset]  flex flex-col justify-center shadow-[0_4px_20px_rgba(147,51,234,0.15)]">
             <span className="bg-[#260433] w-fit text-white px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider">
               {activeContent.subtitle}
             </span>
