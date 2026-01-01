@@ -82,6 +82,8 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+   --scrollbar-thumb: #260433;   /* purple */
+  --scrollbar-track: #f2eaf6; 
 }
 
 .dark {
@@ -116,6 +118,8 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+   --scrollbar-thumb: #6a1bbd;
+  --scrollbar-track: #1a0b2e;
 }
 
 @layer base {
@@ -131,4 +135,46 @@
   .font-poppins {
     font-family: 'Poppins', sans-serif;
   }
+}
+
+/* Native default scrollbar — only color changed */
+html {
+  scrollbar-width: auto;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+/* Chrome, Edge, Safari (keeps default size & style) */
+::-webkit-scrollbar {
+  width: auto;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+}
+
+.sidebar {
+  scrollbar-width: auto;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+.sidebar::-webkit-scrollbar {
+  width: auto;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 999px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3a0666;
 }

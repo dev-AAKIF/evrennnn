@@ -1,62 +1,6 @@
 import { clsx } from "clsx";
-// import {
-//   BriefcaseBusiness,
-//   Building,
-//   ChartColumnBig,
-//   Check,
-//   Database,
-//   FilePlus,
-//   FileSearch2,
-//   FileText,
-//   Globe,
-//   Lightbulb,
-//   Linkedin,
-//   ListOrdered,
-//   Logs,
-//   Mail,
-//   MailCheck,
-//   PieChart,
-//   PlusCircle,
-//   RefreshCcw,
-//   Search,
-//   Server,
-//   User,
-//   UserRoundPlus,
-//   UsersRound,
-//   Volume2,
-//   Headset,
-//   Settings,
-//   ClipboardCheck,
-//   Workflow,
-//   Brain,
-// //   BriefcaseBusiness,
-// //   Building,
-//   ChartColumnBig,
-//   Check,
-//   Database,
-//   FilePlus,
-//   FileSearch2,
-//   FileText,
-//   Globe,
-//   Lightbulb,
-//   Linkedin,
-//   ListOrdered,
-//   Logs,
-//   Mail,
-//   MailCheck,
-//   PieChart,
-//   PlusCircle,
-//   RefreshCcw,
-//   Search,
-//   Server,
-//   User,
-//   UserRoundPlus,
-//   UsersRound,
-//   Volume2,
-// } from "lucide-react";
 
 import {
-  // ===== EXISTING KPO / RPO ICONS =====
   BriefcaseBusiness,
   Building,
   ChartColumnBig,
@@ -81,8 +25,6 @@ import {
   UserRoundPlus,
   UsersRound,
   Volume2,
-
-  // ===== BPO ICONS =====
   Headset,
   Phone,
   MessageSquare,
@@ -97,8 +39,6 @@ import {
   ClipboardCheck,
   Users,
   Activity,
-
-  // ===== CRM / AUTOMATION / AI ICONS =====
   Workflow,
   Brain,
   Bot,
@@ -316,87 +256,6 @@ export const RPOSERVICES = [
     color: "purple2",
   },
 ];
-// export const BPOSERVICES = [{
-//         icon: ListOrdered,
-//         title: "Number Gathering",
-//         detailPath: "/rpo-services/number-gathering",
-//         description: "Expertly gathering numbers for informed decisions.",
-//         key: "number-gathering",
-//         color: "purple1",
-//     },
-//     {
-//         icon: Lightbulb,
-//         title: "Talent Mapping",
-//         detailPath: "/rpo-services/talent-mapping",
-//         description: "Strategically mapping talent for the right fit.",
-//         key: "talent-mapping",
-//         color: "purple2",
-//     },
-//     {
-//         icon: Search,
-//         title: "Talent Sourcing",
-//         detailPath: "/rpo-services/talent-sourcing",
-//         description: "Connecting the right talent with the right opportunity.",
-//         key: "talent-sourcing",
-//         color: "purple1",
-//     },
-//     {
-//         icon: ChartColumnBig,
-//         title: "Talent Insight & Intelligence",
-//         detailPath: "/rpo-services/talent-insight",
-//         description: "Unlocking talent insights for smarter decisions.",
-//         key: "talent-insight",
-//         color: "purple2",
-//     },
-//     {
-//         icon: UsersRound,
-//         title: "Diversity Hiring",
-//         detailPath: "/rpo-services/diversity-hiring",
-//         description: "Fostering diverse teams for stronger innovation.",
-//         key: "diversity-hiring",
-//         color: "purple1",
-//     },
-//     {
-//         icon: BriefcaseBusiness,
-//         title: "Executive Search Support",
-//         detailPath: "/rpo-services/executive-search-support",
-//         description: "Empowering executive search with tailored support.",
-//         key: "executive-search-support",
-//         color: "purple2",
-//     },
-//     {
-//         icon: UserRoundPlus,
-//         title: "Talent Pipeline",
-//         detailPath: "/rpo-services/talent-pipeline",
-//         description: "Building a pipeline of top-tier talent for future success.",
-//         key: "talent-pipeline",
-//         color: "purple1",
-//     },
-//     {
-//         icon: FileText,
-//         title: "Recruitment Services",
-//         detailPath: "/rpo-services/recruitment-services",
-//         description: "Connecting the right talent with the right opportunities.",
-//         key: "recruitment-services",
-//         color: "purple2",
-//     },
-//     {
-//         icon: FilePlus,
-//         title: "Talent Pooling",
-//         detailPath: "/rpo-services/talent-pooling",
-//         description: "Creating a pool of top talent for future growth.",
-//         key: "talent-pooling",
-//         color: "purple1",
-//     },
-//     {
-//         icon: User,
-//         title: "Admin Support",
-//         detailPath: "/rpo-services/admin-support",
-//         description: "Efficient admin support to streamline your operations.",
-//         key: "admin-support",
-//         color: "purple2",
-//     },
-// ];
 
 export const BPOSERVICES = [
   {
@@ -537,88 +396,6 @@ export const CRMSERVICES = [
   },
 ];
 
-// export const CRMSERVICES = [{
-//         icon: ListOrdered,
-//         title: "Number Gathering",
-//         detailPath: "/rpo-services/number-gathering",
-//         description: "Expertly gathering numbers for informed decisions.",
-//         key: "number-gathering",
-//         color: "purple1",
-//     },
-//     {
-//         icon: Lightbulb,
-//         title: "Talent Mapping",
-//         detailPath: "/rpo-services/talent-mapping",
-//         description: "Strategically mapping talent for the right fit.",
-//         key: "talent-mapping",
-//         color: "purple2",
-//     },
-//     {
-//         icon: Search,
-//         title: "Talent Sourcing",
-//         detailPath: "/rpo-services/talent-sourcing",
-//         description: "Connecting the right talent with the right opportunity.",
-//         key: "talent-sourcing",
-//         color: "purple1",
-//     },
-//     {
-//         icon: ChartColumnBig,
-//         title: "Talent Insight & Intelligence",
-//         detailPath: "/rpo-services/talent-insight",
-//         description: "Unlocking talent insights for smarter decisions.",
-//         key: "talent-insight",
-//         color: "purple2",
-//     },
-//     {
-//         icon: UsersRound,
-//         title: "Diversity Hiring",
-//         detailPath: "/rpo-services/diversity-hiring",
-//         description: "Fostering diverse teams for stronger innovation.",
-//         key: "diversity-hiring",
-//         color: "purple1",
-//     },
-//     {
-//         icon: BriefcaseBusiness,
-//         title: "Executive Search Support",
-//         detailPath: "/rpo-services/executive-search-support",
-//         description: "Empowering executive search with tailored support.",
-//         key: "executive-search-support",
-//         color: "purple2",
-//     },
-//     {
-//         icon: UserRoundPlus,
-//         title: "Talent Pipeline",
-//         detailPath: "/rpo-services/talent-pipeline",
-//         description: "Building a pipeline of top-tier talent for future success.",
-//         key: "talent-pipeline",
-//         color: "purple1",
-//     },
-//     {
-//         icon: FileText,
-//         title: "Recruitment Services",
-//         detailPath: "/rpo-services/recruitment-services",
-//         description: "Connecting the right talent with the right opportunities.",
-//         key: "recruitment-services",
-//         color: "purple2",
-//     },
-//     {
-//         icon: FilePlus,
-//         title: "Talent Pooling",
-//         detailPath: "/rpo-services/talent-pooling",
-//         description: "Creating a pool of top talent for future growth.",
-//         key: "talent-pooling",
-//         color: "purple1",
-//     },
-//     {
-//         icon: User,
-//         title: "Admin Support",
-//         detailPath: "/rpo-services/admin-support",
-//         description: "Efficient admin support to streamline your operations.",
-//         key: "admin-support",
-//         color: "purple2",
-//     },
-// ];
-
 export const CompanyDropdownItems = [
   {
     title: "Why Us",
@@ -648,36 +425,3 @@ export const ServicesDropdownItems = [
     href: "/crm-services",
   },
 ];
-
-// export const WHYCHOOSEDATA = [
-//     {
-//       icon: <DollarSignIcon className="h-8 w-8 text-gray-500" />,
-//       title: "Prioritize Budget",
-//       description: "We prioritize your budget by not charging for data that doesn't yield results, reflecting our commitment to providing value."
-//     },
-//     {
-//       icon: <LightBulbIcon className="h-8 w-8 text-gray-500" />,
-//       title: "Industry Insights & Proven Strategies",
-//       description: "With over a decade of experience, we bring industry insights and proven strategies to optimize results for your data list building."
-//     },
-//     {
-//       icon: <CheckCircleIcon className="h-8 w-8 text-gray-500" />,
-//       title: "Verification & Accuracy",
-//       description: "Our information and contact lists undergo rigorous verification by experienced compliance and quality teams, ensuring accuracy and relevance."
-//     },
-//     {
-//       icon: <ViewListIcon className="h-8 w-8 text-gray-500" />,
-//       title: "Tailored Data Lists",
-//       description: "Serving every industry, sector, and business size, we tailor data lists to your specific requirements, covering over 150 countries."
-//     },
-//     {
-//       icon: <GlobeAltIcon className="h-8 w-8 text-gray-500" />,
-//       title: "Global Coverage",
-//       description: "We offer coverage in over 150 countries, ensuring you get the global data you need."
-//     },
-//     {
-//       icon: <ShieldExclamationIcon className="h-8 w-8 text-gray-500" />,
-//       title: "Compliance and Quality",
-//       description: "Our lists meet the highest standards of compliance, ensuring quality and regulatory adherence."
-//     }
-//   ];

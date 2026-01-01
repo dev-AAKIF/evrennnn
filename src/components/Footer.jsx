@@ -232,7 +232,7 @@ const Footer = () => {
                       to="/kpo-services"
                       className="text-white transition hover:underline"
                     >
-                      KPO Services
+                      Business Intelligence & Research Solutions
                     </NavLink>
                   </li>
                   <li>
@@ -240,7 +240,7 @@ const Footer = () => {
                       to="/rpo-services"
                       className="text-white transition hover:underline"
                     >
-                      RPO Services
+                      Talent Acquisition & Recruitment Solutions
                     </NavLink>
                   </li>
                   <li>
@@ -248,7 +248,7 @@ const Footer = () => {
                       to="/bpo-services"
                       className="text-white transition hover:underline"
                     >
-                      BPO Services
+                      Customer Support & Process Management
                     </NavLink>
                   </li>
                   <li>
@@ -256,7 +256,7 @@ const Footer = () => {
                       to="/crm-services"
                       className="text-white transition hover:underline"
                     >
-                      CRM Services
+                      Digital Operations, Automation & AI Solutions
                     </NavLink>
                   </li>
                 </ul>
