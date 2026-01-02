@@ -89,28 +89,28 @@ const Header = () => {
                   onClick={closeMobileMenu}
                   className="text-sm text-black hover:bg-gray-100 px-3 py-1.5 rounded-lg"
                 >
-                  KPO Services
+                  Business Intelligence & Research Solutions
                 </NavLink>
                 <NavLink
                   to="/rpo-services"
                   onClick={closeMobileMenu}
                   className="text-sm text-black hover:bg-gray-100 px-3 py-1.5 rounded-lg"
                 >
-                  RPO Services
+                  Talent Acquisition & Recruitment Solutions
                 </NavLink>
                 <NavLink
                   to="/bpo-services"
                   onClick={closeMobileMenu}
                   className="text-sm text-black hover:bg-gray-100 px-3 py-1.5 rounded-lg"
                 >
-                  BPO Services
+                  Customer Support & Process Management
                 </NavLink>
                 <NavLink
                   to="/crm-services"
                   onClick={closeMobileMenu}
                   className="text-sm text-black hover:bg-gray-100 px-3 py-1.5 rounded-lg"
                 >
-                  CRM Services
+                  CRM, Automation & AI Tools Development
                 </NavLink>
               </div>
             </div>

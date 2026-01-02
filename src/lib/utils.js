@@ -421,7 +421,7 @@ export const ServicesDropdownItems = [
     href: "/bpo-services",
   },
   {
-    title: "CRM, Automation & AI Tools Developmen",
+    title: "CRM, Automation & AI Tools Development",
     href: "/crm-services",
   },
 ];
